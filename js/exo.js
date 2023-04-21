@@ -16,4 +16,7 @@ let amisHercule = ['Jupiter', 'Junon', 'Alcmène', 'Déjanire'];
 base.printFriends(amisHercule);
 
 base.setBestFriend(amisHercule[0])
- a
+
+const title = document.createElement("h1")
+const newContent = document.createTextNode('Vous consultez le profil de Hercule');
+title.appendChild(newContent)
