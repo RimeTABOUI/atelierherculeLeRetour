@@ -11,4 +11,5 @@ let hercule = {
 
 base.fillProfil(hercule);
 
-
+let amisHercule = ['Jupiter', 'Junon', 'Alcmène', 'Déjanire'];
+base.printFriends(amisHercule)
